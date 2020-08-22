@@ -10,14 +10,14 @@
         <BaseURL>BBB_720_1M_video_init.mp4</BaseURL>
         <SegmentBase indexRangeExact="true" indexRange="885-4480" />
       </Representation>
-      <Representation id="2" mimeType="video/mp4" codecs="avc1.4d401f" width="1280" height="720" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="2200000">
+      <!-- <Representation id="2" mimeType="video/mp4" codecs="avc1.4d401f" width="1280" height="720" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="2200000">
         <BaseURL>BBB_720_2M_video_init.mp4</BaseURL>
         <SegmentBase indexRangeExact="true" indexRange="885-4480" />
       </Representation>
       <Representation id="3" mimeType="video/mp4" codecs="avc1.4d401f" width="1280" height="720" frameRate="24" sar="1:1" startWithSAP="1" bandwidth="4100000">
         <BaseURL>BBB_720_4M_video_init.mp4</BaseURL>
         <SegmentBase indexRangeExact="true" indexRange="885-4480" />
-      </Representation>
+      </Representation> -->
     </AdaptationSet>
   </Period>
 </MPD>
