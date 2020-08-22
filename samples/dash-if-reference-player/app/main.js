@@ -35,7 +35,7 @@ angular.module('DashIFTestVectorsService', ['ngResource']).factory('dashifTestVe
 
 app.controller('DashController', function ($scope, sources, contributors, dashifTestVectors) {
     $scope.selectedItem = {
-        url: 'https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd'
+        url: 'http://172.28.176.237/dash.js/data/bbb_30fps/bbb_30fps.mpd'
     };
 
     sources.query(function (data) {
@@ -1011,6 +1011,7 @@ app.controller('DashController', function ($scope, sources, contributors, dashif
                 $scope.doLoad();
             }
         }
+        $scope.doLoad(); // force load
     })();
 });
 
